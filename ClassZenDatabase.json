@@ -1,0 +1,279 @@
+{
+  "users": [
+    {
+      "User_id": "1",
+      "Name": "John",
+      "Email": "john@gmail.com",
+      "Phone": "7492732121",
+      "role": "Student"
+    },
+    {
+      "User_id": "2",
+      "Name": "Banu",
+      "Email": "banu@gmail.com",
+      "Phone": "8792732121022",
+      "role": "Student"
+    },
+    {
+      "User_id": "3",
+      "Name": "Mani",
+      "Email": "mani@gmail.com",
+      "Phone": "987632121",
+      "role": "Student"
+    }
+  ],
+
+  "codekata":[
+    {
+        "User_id":"1",
+        "Date":"2020-10-10",
+        "Problems_solved":"5"
+    },
+    {
+        "User_id":"1",
+        "Date":"2020-10-12",
+        "Problems_solved":"10"
+    },
+    {
+        "User_id":"2",
+        "Date":"2020-10-15",
+        "Problems_solved":"6"
+    },
+    {
+        "User_id":"2",
+        "Date":"2020-10-17",
+        "Problems_solved":"15"
+    },
+    {
+        "User_id":"3",
+        "Date":"2020-10-21",
+        "Problems_solved":"9"
+    }
+  ],
+  "attendace":[
+    {
+      "User_id":"1",
+      "Date":"2020-10-10",
+      "Status":"Present"
+    },
+    {
+      "User_id":"2",
+      "Date":"2020-10-10",
+      "Status":"absent"
+    },
+    {
+      "User_id":"3",
+      "Date":"2020-10-10",
+      "Status":"Present"
+    },
+    {
+      "User_id":"1",
+      "Date":"2020-10-12",
+      "Status":"Absent"
+    },
+    {
+      "User_id":"2",
+      "Date":"2020-10-12",
+      "Status":"Present"
+    },
+    {
+      "User_id":"3",
+      "Date":"2020-10-12",
+      "Status":"absent"
+    },
+    {
+      "User_id":"1",
+      "Date":"2020-10-15",
+      "Status":"Present"
+    },
+    {
+      "User_id":"2",
+      "Date":"2020-10-15",
+      "Status":"Present"
+    },
+    {
+      "User_id":"3",
+      "Date":"2020-10-15",
+      "Status":"Absent"
+    },
+    {
+      "User_id":"1",
+      "Date":"2020-10-17",
+      "Status":"Present"
+    },
+    {
+      "User_id":"2",
+      "Date":"2020-10-17",
+      "Status":"absent"
+    },
+    {
+      "User_id":"3",
+      "Date":"2020-10-17",
+      "Status":"Present"
+    },
+    {
+      "User_id":"1",
+      "Date":"2020-10-21",
+      "Status":"Present"
+    },
+    {
+      "User_id":"2",
+      "Date":"2020-10-21",
+      "Status":"absent"
+    },
+    {
+      "User_id":"3",
+      "Date":"2020-10-21",
+      "Status":"Present"
+    }
+    
+  ],
+
+  "topics":[
+    {
+      "topic_id":"1",
+      "Date":"2020-10-10",
+      "topic_name":"HTML"
+    },
+    {
+      "topic_id":"2",
+      "Date":"2020-10-15",
+      "topic_name":"CSS"
+    },
+    {
+      "topic_id":"3",
+      "Date":"2020-10-17",
+      "topic_name":"Javascript"
+    }
+  ],
+  "tasks":[
+    {
+      "task_id":"1",
+      "topic_id":"1",
+      "User_id":"1",
+      "Date":"2020-10-10",
+      "task_name":"Landing page HTML",
+      "submitted":"true"
+    },
+    
+    {
+      "task_id":"1",
+      "topic_id":"1",
+      "User_id":"2",
+      "Date":"2020-10-10",
+      "task_name":"Landing page HTML",
+      "submitted":"true"
+    },
+    {
+      "task_id":"1",
+      "topic_id":"1",
+      "User_id":"3",
+      "Date":"2020-10-10",
+      "task_name":"Landing page HTML",
+      "submitted":"true"
+    },
+    {
+      "task_id":"2",
+      "topic_id":"2",
+      "User_id":"1",
+      "Date":"2020-10-15",
+      "task_name":"TailwindCSS",
+      "submitted":"false"
+    },
+    {
+      "task_id":"2",
+      "topic_id":"2",
+      "User_id":"2",
+      "Date":"2020-10-15",
+      "task_name":"TailwindCSS",
+      "submitted":"true"
+    },
+    {
+      "task_id":"2",
+      "topic_id":"2",
+      "User_id":"3",
+      "Date":"2020-10-15",
+      "task_name":"TailwindCSS",
+      "submitted":"true"
+    },
+    {
+      "task_id":"3",
+      "topic_id":"3",
+      "User_id":"1",
+      "Date":"2020-10-17",
+      "task_name":"Design of TODO App",
+      "submitted":"true"
+    },
+    {
+      "task_id":"3",
+      "topic_id":"3",
+      "User_id":"2",
+      "Date":"2020-10-17",
+      "task_name":"Design of TODO App",
+      "submitted":"true"
+    },
+    {
+      "task_id":"3",
+      "topic_id":"3",
+      "User_id":"3",
+      "Date":"2020-10-17",
+      "task_name":"Design of TODO App",
+      "submitted":"false"
+    }
+  ],
+  "company_drives":[
+    {
+      "drive_id":"1",
+      "User_id":"1",
+      "Date":"2020-10-10",
+      "drive_name":"HCL"
+    },
+    {
+      "drive_id":"1",
+      "User_id":"2",
+      "Date":"2020-10-12",
+      "drive_name":"CTS"
+    },
+    {
+      "drive_id":"1",
+      "User_id":"2",
+      "Date":"2020-10-17",
+      "drive_name":"Infosys"
+    },
+    {
+      "drive_id":"2",
+      "User_id":"1",
+      "Date":"2020-10-18",
+      "drive_name":"Zoho"
+    },
+    {
+      "drive_id":"3",
+      "User_id":"2",
+      "Date":"2020-10-24",
+      "drive_name":"TCS"
+    }
+
+  ],
+  "mentors":[
+    {
+      "mentor_id":"1",
+      "mentor_name":"Vimal",
+      "mentee_count":17
+    },
+    {
+      "mentor_id":"2",
+      "mentor_name":"Priya",
+      "mentee_count":12
+    },
+    {
+      "mentor_id":"3",
+      "mentor_name":"Surya",
+      "mentee_count":10
+    },
+    {
+      "mentor_id":"4",
+      "mentor_name":"John",
+      "mentee_count":21
+    }
+  ]
+}
